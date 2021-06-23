@@ -1,0 +1,85 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
+
+.cd-logo {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.cd-logo {
+  background-image: url("https://images.unsplash.com/photo-1528750997573-59b89d56f4f7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1132&q=80");
+  min-height: 100%;
+  background-size: cover;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+    text-align:center
+}
+
+.textSection {
+  background-color: #BAC141;
+  opacity: 0.6;
+  padding:50px 80px;
+}
+
+.preppingSoy {
+    background-image: url("https://images.unsplash.com/photo-1601993488142-d3050a16478d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+}
+
+.kitchen-equipment {
+  background-image: url("https://images.unsplash.com/photo-1451930157095-102bd2d5436e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+}
+
+.bottling {
+  background-image: url("https://images.unsplash.com/photo-1559598467-f8b76c8155d0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+}
+
+.cd-logo, .kitchen-equipment, .preppingSoy, .bottling {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+
+    background-attachment: fixed;
+    opacity: 0.9;
+    }
+
+  .caption {
+    position: absolute;
+    top: 40%;
+    width: 80%;
+    text-align: center;
+    background-color: #41BAC1;
+    opacity: 0.7;
+  }
+
+  .border {
+    
+    color: white;
+    padding: 18px;
+    font-size: 40px;
+    letter-spacing: 30px;
+    text-align: center;
+  }
+
+  /* Turn off parallax scrolling for tablets and phones as it is not supported */
+@media only screen and (max-device-width: 1024px) {
+    .cd-logo, .layer-cake.preppingSoy, .kitchen-equipment, .bottling {
+        background-attachment: scroll;
+    }
+}
